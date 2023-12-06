@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import CountryList from "../components/CountryList";
 
 const CountryContainer = () => {
     // useState to make an empty array (null), will create the array of countries once first country fetch request is sent
@@ -18,7 +19,11 @@ const CountryContainer = () => {
     },[]) 
 
     return(
-        <h1>Country Bucket List</h1>
+        <>
+            <h1>Country Bucket List</h1>
+            {/* pass in country prop */}
+            <CountryList listOfCountries={countries}/>
+        </>
     )
 }
 
