@@ -5,3 +5,5 @@ const CountryContainer = () => {
         <h1>Country Bucket List</h1>
     )
 }
+
+export default CountryContainer;
