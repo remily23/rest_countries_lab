@@ -40,7 +40,8 @@ const CountryContainer = () => {
             {/* pass in country prop */}
             <CountryList 
             listOfCountries={countries} 
-            handleCountryUpdate={markCountryAsVisited}/>
+            handleCountryUpdate={markCountryAsVisited}
+            />
         <CountryList
             listOfCountries={visitedCountries}
             handleCountryUpdate={markCountryAsVisited}
