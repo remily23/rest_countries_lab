@@ -42,6 +42,7 @@ const CountryContainer = () => {
             listOfCountries={countries} 
             handleCountryUpdate={markCountryAsVisited}
             />
+        <h2>Visited Countries</h2>
         <CountryList
             listOfCountries={visitedCountries}
             handleCountryUpdate={markCountryAsVisited}
